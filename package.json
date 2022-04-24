@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start:images": "node --loader ts-node/esm ./src/images.ts",
+    "start:metadata": "node --loader ts-node/esm ./src/metadata.ts"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.4",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "type": "module"
+}
