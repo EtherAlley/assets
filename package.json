@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "start:images": "node --loader ts-node/esm ./src/images.ts",
-    "start:metadata": "node --loader ts-node/esm ./src/metadata.ts"
+    "start:images": "node --loader ts-node/esm ./src/TokenImages.ts",
+    "start:search": "node --loader ts-node/esm ./src/TokenSearch.ts",
+    "start:metadata": "node --loader ts-node/esm ./src/TokenMetadata.ts",
+    "start:punks": "node --loader ts-node/esm ./src/CryptoPunkMetadata.ts"
   },
   "dependencies": {
     "axios": "^0.26.1",
